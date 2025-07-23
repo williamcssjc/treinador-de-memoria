@@ -22,6 +22,7 @@ Um jogo interativo desenvolvido em HTML, CSS e JavaScript puro que estimula a me
 5. A cada rodada correta, a sequência aumenta
 6. Errou? Tente bater o seu recorde na próxima!
 
+
 ## 🧩 Tecnologias Utilizadas
 
 - HTML5
@@ -47,7 +48,7 @@ Um jogo interativo desenvolvido em HTML, CSS e JavaScript puro que estimula a me
 
 ## 🧠 Autor
 
-Desenvolvido com 💻 e ☕ por [William Costa Santos](https://github.com/williamcssjc?tab=repositories)
+Desenvolvido com 💻 e ☕ por [William Costa Santo](https://github.com/williamcssjc?tab=repositories)
 Este projeto faz parte de um ciclo de evolução pessoal e profissional com foco em boas práticas, modularidade e visão de produto.
 
 ## 📌 Versão

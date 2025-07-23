@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e0e2c;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 500px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/*Botões de dificuldade*/
+.dificuldade {
+    margin-bottom: 20px;
+}
+
+.dificuldade button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    background-color: #222c4f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.dificuldade button:hover {
+    background-color: #3d4fa3;
+}
+
+.dificuldade button.ativo{
+    background-color: #3a5ca5;
+    box-shadow: 0 0 10px #3a5ca5;
+}
+/*painel do jogo*/
+.painel-jogo {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.bloco {
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+.bloco:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+#vermelho {
+    background-color: #e63946;
+}
+
+#azul {
+    background-color: #457b9d;
+}
+
+#verde {
+    background-color: #2a9d8f;
+}
+
+#amarelo {
+    background-color: #f4a261;
+}
+
+/*Pontuação */
+.pontuacao {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/*Botão iniciar*/
+#start {
+    background-color: #1d3557;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#start:hover {
+    background-color: #3a5ca5;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.8;}
+    50% { transform: scale(1.1); opacity: 1;}
+    100% { transform: scale(1); opacity: 0.8;}
+}
+
+.bloco.piscar {
+    animation: pulse 0.4s ease;
+}

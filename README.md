@@ -22,6 +22,9 @@ Um jogo interativo desenvolvido em HTML, CSS e JavaScript puro que estimula a me
 5. A cada rodada correta, a sequência aumenta
 6. Errou? Tente bater o seu recorde na próxima!
 
+7. ## 📌 Demonstração
+👉 [Jogar Agora] (https://williamcssjc.github.io/treinador-de-memoria/)
+
 
 ## 🧩 Tecnologias Utilizadas
 
